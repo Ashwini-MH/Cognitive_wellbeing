@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="book_styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Book an Appointment with a Therapist</h2>
+        <form id="appointment-form" action="appintment.php" method="post">
+            <input type="text" class="input-field" id="name" placeholder="Your Name" required>
+            <input type="email" class="input-field" id="email" placeholder="Email Id" required>
+            <input type="date" class="input-field" id="date" required>
+            <select class="input-field" id="therapist" required>
+                <option value="">Gender</option>
+                <option value="Therapist 1">Male</option>
+                <option value="Therapist 2">Female</option>
+                <option value="Therapist 3">Other</option>
+            </select>
+            <textarea class="input-field" id="issue" placeholder="Describe your issue" rows="4" required></textarea>
+            <button type="submit" class="submit-btn">Book Appointment</button>
+        </form>
+        <div id="success-alert" class="alert" style="display: none;">Appointment Booked Successfully!</div>
+    </div>
+
+    <script src="book_script.js"></script>
+</body>
+</html>

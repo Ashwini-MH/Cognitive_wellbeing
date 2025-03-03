@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="a_styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>COGNITIVE WELLBEING</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a><img src="logo.png" alt="logo"></a>
+
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+        <li class="link"><a href="login backend/index.php">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1 style="font-size: 100px;">
+      COGNITIVE WELLBEING
+  </h1>
+      <h3>FIND SERENITY DAILY</h3>
+    <button><a href="gethelp/gethelp.html">Get Help</a></button>
+  </div>
+
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2 class="about-title">About Us</h2>
+      <div class="about-intro">
+        <p>Welcome to Coginitive wellbeing, your trusted partner in mental well-being. Our goal is to provide comprehensive support and resources to help you achieve a balanced and fulfilling life. Explore our services to find the right support for you.</p>
+      </div>
+      <div class="services">
+        <div class="service">
+          <div class="service-background" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);"></div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-spa"></i></div>
+            <h3>Meditation Guidance</h3>
+            <p>Explore our guided meditation sessions to help you achieve mental clarity, reduce stress, and promote emotional well-being.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-background" style="background: linear-gradient(135deg, #f39c12, #f1c40f);"></div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-child"></i></div>
+            <h3>Asanas</h3>
+            <p>Learn and practice various yoga asanas to improve flexibility, enhance physical health, and promote mental calmness.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-background" style="background: linear-gradient(135deg, #3498db, #2980b9);"></div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-music"></i></div>
+            <h3>Peaceful Music</h3>
+            <p>Relax and unwind with our curated selection of peaceful music designed to soothe your mind and enhance your sense of tranquility.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-background" style="background: linear-gradient(135deg, #2ecc71, #27ae60);"></div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-user-md"></i></div>
+            <h3>Therapy Sessions</h3>
+            <p>Engage in personalized therapy sessions with our experienced professionals to address your mental health needs and support your journey towards healing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-left">
+      <h2 class="sub-title">Contact</h2>
+      <p><i class="fas fa-paper-plane"></i>cognitivewellbeing@gmail.com</p>
+      <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+      <div class="social-icons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="contact-right">
+      <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <p>Copyright © COGNITIVE WELLBEING 2024</p>
+  </footer>
+
+  <div class="toggle__btn">
+    <i class="ri-menu-line"></i>
+  </div>
+
+  <script src="a_script.js"></script>
+</body>
+</html>
